@@ -17,6 +17,7 @@ result=`head -n 1 result.json`
 error='{"Login":"Password does not meet minimum length requirements."}'
 error2='{"error":"You must be logged in to complete this action"}'
 if [ "$result" != "$error" ] && [ "$result" != "$error2" ]; then
+	echo "Loading Successfull"
 	echo $result
 else
     echo "Login or password are wrong."
