@@ -1,3 +1,13 @@
 #!/bin/bash
 
-nordvpn login --username 'myuser@domain.tld' --password 'my$ecretP@ssw0rd'
+
+
+nordvpn login --username 'lprenji@gmail.com' --password 'PPESG2fR6yxTKjhAmdth'
+
+# nordvpn connect [country]
+
+# nordvpn disconnect
+
+#lprenji@gmail.com
+
+#PPESG2fR6yxTKjhAmdth
