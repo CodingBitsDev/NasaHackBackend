@@ -10,3 +10,8 @@
 - python3 Get_Clean_Data.py 	 # will clean data from different source e.g. https://www.space-track.org/auth/login 
 
 ### This project is correlated to https://github.com/Renji3/NasaHack
+- NasaHack is supposed to be the front end, wheras this project is supposed to be the data generator
+
+### It is advised to add Get_CelesTrak_Data.py to the cron jobs to execute twice a day
+
+### For hosting a static file to the front end use tools like nginx
