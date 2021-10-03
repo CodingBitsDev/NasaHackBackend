@@ -54,7 +54,7 @@ if len(satelites) == len(tle1s) == len(tle2s):
         
         data_json[str(i)] = {'name': name, 'date': unix_date, 'satelite': satelites[i], 'tle1':tle1s[i], 'tle2':tle2s[i]}
 
-with open('../data/debris_data_CelesTrak.json.json', 'w') as f:
+with open('../data/debris_data_CelesTrak.json', 'w') as f:
     json.dump(data_json, f)
 
 
